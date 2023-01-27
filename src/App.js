@@ -5,7 +5,6 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
-import ScrollToPop from './components/ScrollToPop/ScrollToPop'
 import Footer from './components/Footer/Footer'
 import './App.css';
 
@@ -21,8 +20,6 @@ function App() {
         <Skills />
         <Contact />
       </main>
-
-      <ScrollToPop />
       <Footer />
     </div>
   );
